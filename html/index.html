@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>vr landing 9</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Meta descriptions may be included in search results to concisely summarize page content."
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Start Header -->
+      <header class="header">
+        <nav class="container-xl">
+          <div class="row">
+            <div class="col-auto">
+              <div class="d-flex align-items-center min-h-100">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/logo.svg" alt="Company" />
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="header-right">
+                <div class="dropdown language-dropdown">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenu2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      class="language-flag"
+                      src="./images/usa-flag.png"
+                      alt="Flag"
+                    />
+                    <span class="language-name">EN</span>
+                  </button>
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="dropdownMenu2"
+                  >
+                    <li>
+                      <a href="javascript:void(0)" class="dropdown-item">
+                        <img
+                          class="language-flag"
+                          src="./images/usa-flag.png"
+                          alt="Flag"
+                        />
+                        <span class="language-name">English</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" class="dropdown-item">
+                        <img
+                          class="language-flag"
+                          src="./images/france-flag.png"
+                          alt="Flag"
+                        />
+                        <span class="language-name">Franch</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <button class="btn btn-icon btn-search" type="button">
+                  <img
+                    src="./images/search-black.svg"
+                    style="width: 18px; height: 18px"
+                    alt="search"
+                  />
+                </button>
+                <button
+                  class="navbar-toggler border-radius-0"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                >
+                  <img
+                    src="./images/menu-hamburg-black.svg"
+                    alt="menu-hamburg"
+                  />
+                  <span class="d-sm-block d-none">Menu</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <ul class="navbar-nav ms-xl-auto" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  title="Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="About us">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Contact us">Contact us</a>
+              </li>
+              <li class="nav-item info-tab-wrapper">
+                <a
+                  class="info-tab"
+                  href="tel:123-456-7890"
+                  title="Call us Today"
+                >
+                  <img
+                    class="info-tab-icon"
+                    src="./images/call-white-lg.svg"
+                    alt="call-white"
+                  />
+                  <p>
+                    <label class="label">Call us Today</label>
+                    <span class="detail">+1 234-456-6789</span>
+                  </p>
+                </a>
+                <a
+                  class="info-tab"
+                  href="mailto:info@company.com"
+                  title="Call us Today"
+                >
+                  <img
+                    class="info-tab-icon"
+                    src="./images/email-white-lg.svg"
+                    alt="call-white"
+                  />
+                  <p>
+                    <label class="label">Mail</label>
+                    <span class="detail">info@company.com</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <div class="offcanvas-close">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <img src="./images/close-white.svg" alt="close" />
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="header-search">
+          <div class="input-group">
+            <input
+              type="text"
+              placeholder="Search here..."
+              class="header-search-input"
+            />
+            <button
+              type="button"
+              title="Search"
+              class="btn btn-primary d-sm-block d-none"
+            >
+              Search
+            </button>
+            <button
+              type="button"
+              title="Search"
+              class="btn btn-primary btn-icon d-sm-none"
+            >
+              <img src="./images/search-white.svg" alt="close" />
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Hero Banner Start -->
+        <section class="text-animation section hero-banner">
+          <div class="container-lg">
+            <div class="swiper hero-banner-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide hero-banner-slide">
+                  <p class="slide-number" data-swiper-parallax="-200">
+                    #1 Service Provider
+                  </p>
+                  <h2 class="slide-heading" data-swiper-parallax="-300">
+                    <span class="fw-300">The Better way to</span>
+                    Start the Creativity
+                  </h2>
+                  <p class="slide-description" data-swiper-parallax="-400">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                  <div class="center-image-block d-md-none">
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-700"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-primary"
+                    data-swiper-parallax="-600"
+                    title="Get Started"
+                  >
+                    Get Started
+                  </button>
+                  <div class="center-image-block d-md-block d-none">
+                    <span
+                      class="cover-border"
+                      data-swiper-parallax="-500"
+                    ></span>
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-600"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide hero-banner-slide">
+                  <p class="slide-number" data-swiper-parallax="-200">
+                    #1 Service Provider
+                  </p>
+                  <h2 class="slide-heading" data-swiper-parallax="-300">
+                    <span class="fw-300">The Better way to</span>
+                    Start the Creativity
+                  </h2>
+                  <p class="slide-description" data-swiper-parallax="-400">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                  <div class="center-image-block d-md-none">
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-700"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-primary"
+                    data-swiper-parallax="-600"
+                    title="Get Started"
+                  >
+                    Get Started
+                  </button>
+                  <div class="center-image-block d-md-block d-none">
+                    <span
+                      class="cover-border"
+                      data-swiper-parallax="-500"
+                    ></span>
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-600"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide hero-banner-slide">
+                  <p class="slide-number" data-swiper-parallax="-200">
+                    #1 Service Provider
+                  </p>
+                  <h2 class="slide-heading" data-swiper-parallax="-300">
+                    <span class="fw-300">The Better way to</span>
+                    Start the Creativity
+                  </h2>
+                  <p class="slide-description" data-swiper-parallax="-400">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                  <div class="center-image-block d-md-none">
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-700"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-primary"
+                    data-swiper-parallax="-600"
+                    title="Get Started"
+                  >
+                    Get Started
+                  </button>
+                  <div class="center-image-block d-md-block d-none">
+                    <span
+                      class="cover-border"
+                      data-swiper-parallax="-500"
+                    ></span>
+                    <img
+                      class="center-image"
+                      data-swiper-parallax="-600"
+                      src="./images/banner-table-bg.jpg"
+                      alt="Center Image"
+                    />
+                    <div
+                      class="second-image statistics-card"
+                      data-swiper-parallax="-600"
+                    >
+                      <div class="statistics-detail">
+                        <h6>
+                          $34152
+                          <span>Total Revenue</span>
+                        </h6>
+                        <img
+                          class="statistics-stack"
+                          src="./images/database-red.svg"
+                          alt="database"
+                        />
+                      </div>
+                      <p class="info-text">
+                        <img
+                          class="increment-img"
+                          src="./images/arrow-up-green.svg"
+                          alt="Increase"
+                        />
+                        <span class="success-text">2.65%</span> since last week
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-pagination-control">
+                <button
+                  type="button"
+                  class="btn btn-icon dual-icon swiper-prev"
+                  title="Previous"
+                >
+                  <i class="icon-wrapper d-sm-block d-none">
+                    <img
+                      class="default"
+                      src="./images/arrow-up-grey.svg"
+                      alt="Previous"
+                    />
+                    <img
+                      class="active"
+                      src="./images/arrow-up-primary.svg"
+                      alt="Previous"
+                    />
+                  </i>
+                  <i class="icon-wrapper d-sm-none">
+                    <img
+                      class="default"
+                      src="./images/arrow-left-grey.svg"
+                      alt="Previous"
+                    />
+                    <img
+                      class="active"
+                      src="./images/arrow-left-primary.svg"
+                      alt="Previous"
+                    />
+                  </i>
+                </button>
+                <div class="swiper-dots"></div>
+                <button
+                  type="button"
+                  class="btn btn-icon dual-icon swiper-next"
+                  title="Next"
+                >
+                  <i class="icon-wrapper d-sm-block d-none">
+                    <img
+                      class="default"
+                      src="./images/arrow-down-grey.svg"
+                      alt="Previous"
+                    />
+                    <img
+                      class="active"
+                      src="./images/arrow-down-primary.svg"
+                      alt="Previous"
+                    />
+                  </i>
+                  <i class="icon-wrapper d-sm-none">
+                    <img
+                      class="default"
+                      src="./images/arrow-right-grey.svg"
+                      alt="Previous"
+                    />
+                    <img
+                      class="active"
+                      src="./images/arrow-right-primary.svg"
+                      alt="Previous"
+                    />
+                  </i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Hero Banner End -->
+
+        <!-- Partner Brands Start -->
+        <section class="text-animation section partner-brands">
+          <div class="container-lg">
+            <h2 class="section-title reveal-text">100+ Brands Served</h2>
+            <div class="row top-brands">
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-1.png" alt="brand-logo-1" />
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-2.png" alt="brand-logo-1" />
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-3.png" alt="brand-logo-1" />
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-4.png" alt="brand-logo-1" />
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-5.png" alt="brand-logo-1" />
+                </a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <a class="brand-link" href="#" title="Logo Text">
+                  <img src="./images/brand-logo-6.png" alt="brand-logo-1" />
+                </a>
+              </div>
+            </div>
+            <div class="white-box">
+              <div class="row">
+                <div class="col-md-6 br-md-1">
+                  <div class="functional-card">
+                    <img
+                      class="functional-card-img"
+                      src="./images/winner-primary.svg"
+                      alt="winner"
+                    />
+                    <div class="functional-card-detail">
+                      <h6 class="functional-card-title">
+                        Deserve Your Success
+                      </h6>
+                      <p class="functional-card-description">
+                        The leap into electronic typesetting, remaining
+                        essentially unchanged.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="functional-card">
+                    <img
+                      class="functional-card-img"
+                      src="./images/optimize-primary.svg"
+                      alt="winner"
+                    />
+                    <div class="functional-card-detail">
+                      <h6 class="functional-card-title">
+                        Optimize Your Presence
+                      </h6>
+                      <p class="functional-card-description">
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 br-md-1">
+                  <div class="functional-card">
+                    <img
+                      class="functional-card-img"
+                      src="./images/safe-primary.svg"
+                      alt="winner"
+                    />
+                    <div class="functional-card-detail">
+                      <h6 class="functional-card-title">Safe and Secure</h6>
+                      <p class="functional-card-description">
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="functional-card">
+                    <img
+                      class="functional-card-img"
+                      src="./images/download-primary.svg"
+                      alt="winner"
+                    />
+                    <div class="functional-card-detail">
+                      <h6 class="functional-card-title">Fast Backup</h6>
+                      <p class="functional-card-description">
+                        The point of using Lorem Ipsum is that it has a
+                        more-or-less normal.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Partner Brands End -->
+
+        <!-- Mobile App Start -->
+        <section id="particles-js" class="text-animation section mobile-app">
+          <div class="container-lg">
+            <h2 class="section-title reveal-text">
+              App is Available for free on Google Play & App Store
+            </h2>
+            <div class="app-store-block">
+              <a
+                data-aos="fade-up-short"
+                data-aos-easing="ease"
+                data-aos-delay="200"
+                data-aos-duration="800"
+                href="#"
+                title="Download from Playstore"
+              >
+                <img src="./images/playstore.jpg" alt="" />
+              </a>
+              <a
+                data-aos="fade-up-short"
+                data-aos-easing="ease"
+                data-aos-delay="200"
+                data-aos-duration="800"
+                href="#"
+                title="Download from Appstore"
+              >
+                <img src="./images/appstore.jpg" alt="" />
+              </a>
+            </div>
+            <!-- <div class="mobiles-module">
+						<img src="./images/all-mobile-mockup.png" alt="">
+					</div> -->
+            <ul class="style-list">
+              <li class="style-item-1">
+                <picture class="style-image">
+                  <source
+                    srcset="./images/left-mobile-mockup.png"
+                    media="(min-width:769px)"
+                  />
+                  <source
+                    srcset="./images/left-mobile-mockup.png"
+                    media="(max-width:768px)"
+                  />
+                  <img
+                    class="lazyload"
+                    src="./images/left-mobile-mockup.png"
+                    alt=""
+                  />
+                </picture>
+              </li>
+              <li class="style-item-2">
+                <picture class="style-image">
+                  <source
+                    srcset="./images/single-mobile-mockup.png"
+                    media="(min-width:769px)"
+                  />
+                  <source
+                    srcset="./images/single-mobile-mockup.png"
+                    media="(max-width:768px)"
+                  />
+                  <img
+                    class="lazyload"
+                    src="./images/single-mobile-mockup.png"
+                    alt=""
+                  />
+                </picture>
+              </li>
+              <li class="style-item-3">
+                <picture class="style-image">
+                  <source
+                    srcset="./images/right-mobile-mockup.png"
+                    media="(min-width:769px)"
+                  />
+                  <source
+                    srcset="./images/right-mobile-mockup.png"
+                    media="(max-width:768px)"
+                  />
+                  <img
+                    class="lazyload"
+                    src="./images/right-mobile-mockup.png"
+                    alt=""
+                  />
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Mobile App End -->
+
+        <!-- Mobile Connectivity App Start -->
+        <section class="text-animation section mobile-connectivity">
+          <div class="container-lg">
+            <div class="row">
+              <div class="col-xl-6 col-lg-7 centered-block">
+                <p
+                  class="capital-title"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="200"
+                  data-aos-duration="800"
+                >
+                  Communicate Faster Than Ever
+                </p>
+                <h2
+                  class="section-title text-left"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="400"
+                  data-aos-duration="800"
+                >
+                  A Better way to Connect with your Customers
+                </h2>
+                <p
+                  class="description-block"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="600"
+                  data-aos-duration="800"
+                >
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution
+                </p>
+                <p
+                  class="description-block"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="800"
+                  data-aos-duration="800"
+                >
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <div
+                  class="btn-list"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="1000"
+                  data-aos-duration="800"
+                >
+                  <button class="btn btn-primary" title="Download">
+                    Download
+                  </button>
+                  <button class="btn btn-outlined-primary" title="Learn More">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-5 d-flex">
+                <div class="mobile-mockup-block">
+                  <div class="report-card">
+                    <div class="report-card-header">
+                      <p class="report-card-title">Report</p>
+                      <a class="primary-link" title="More">More</a>
+                    </div>
+                    <div class="report-card-body">
+                      <div class="report-card-progress">
+                        <div class="card-category">
+                          60%
+                          <span class="category-name">Category1</span>
+                        </div>
+                      </div>
+                      <ul class="category-listing">
+                        <li class="active category-list-item">
+                          Category 1 <span>60%</span>
+                        </li>
+                        <li class="category-list-item">
+                          Category 2 <span>40%</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <span class="mobile-connectivity-bg bg-1"></span>
+                  <img
+                    class="mobile-connectivity-img"
+                    src="./images/mobile-connectivity-mockup.png"
+                    alt="Mobile Connectivity Mockup"
+                  />
+                  <span class="mobile-connectivity-bg bg-2"></span>
+                  <div class="statistics-card">
+                    <div class="statistics-detail">
+                      <h6>
+                        $34152
+                        <span>Total Revenue</span>
+                      </h6>
+                      <img
+                        class="statistics-stack"
+                        src="./images/database-red.svg"
+                        alt="database"
+                      />
+                    </div>
+                    <p class="info-text">
+                      <img
+                        class="increment-img"
+                        src="./images/arrow-up-green.svg"
+                        alt="Increase"
+                      />
+                      <span class="success-text">2.65%</span> since last week
+                    </p>
+                  </div>
+                  <span class="mobile-connectivity-bg bg-3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Mobile Connectivity App End -->
+
+        <!-- Pricing Section Start -->
+        <section class="text-animation section pricing-section">
+          <div class="container-lg">
+            <h2 class="section-title reveal-text">Affordable Pricing</h2>
+            <p
+              class="section-description"
+              data-aos="fade-up"
+              data-aos-easing="ease"
+              data-aos-delay="400"
+              data-aos-duration="800"
+            >
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <div
+                  class="plan-card"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="600"
+                  data-aos-duration="800"
+                >
+                  <p class="plan-name">Basic Plan</p>
+                  <p class="plan-price"><span>$50</span> /Mo</p>
+                  <ul class="plan-features">
+                    <li>5 Analyzer</li>
+                    <li>3 Month Support</li>
+                    <li>10 Sessions</li>
+                    <li>No Risk Garrunty</li>
+                  </ul>
+                  <button title="Buy Now" class="btn btn-primary">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="plan-card"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="800"
+                  data-aos-duration="800"
+                >
+                  <p class="plan-name">Standard Plan</p>
+                  <p class="plan-price"><span>$150</span> /Mo</p>
+                  <ul class="plan-features">
+                    <li>10 Analyzer</li>
+                    <li>8 Month Support</li>
+                    <li>20 Sessions</li>
+                    <li>Risk Garrunty</li>
+                  </ul>
+                  <button title="Buy Now" class="btn btn-primary">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="plan-card"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="1000"
+                  data-aos-duration="800"
+                >
+                  <p class="plan-name">Pro Plan</p>
+                  <p class="plan-price"><span>$250</span> /Mo</p>
+                  <ul class="plan-features">
+                    <li>20 Analyzer</li>
+                    <li>20 Month Support</li>
+                    <li>50 Sessions</li>
+                    <li>No Risk Garrunty</li>
+                  </ul>
+                  <button title="Buy Now" class="btn btn-primary">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Pricing Section End -->
+
+        <!-- Testimonial Section Start -->
+        <section class="text-animation section testimonial-section">
+          <div class="container-lg">
+            <h2 class="section-title reveal-text">Meet The Team</h2>
+            <div class="testimonial-slider-wrapper">
+              <button
+                type="button"
+                class="btn btn-icon dual-icon swiper-prev"
+                title="Previous"
+              >
+                <i class="icon-wrapper">
+                  <img
+                    class="default"
+                    src="./images/arrow-left-grey.svg"
+                    alt="Previous"
+                  />
+                  <img
+                    class="active"
+                    src="./images/arrow-left-primary.svg"
+                    alt="Previous"
+                  />
+                </i>
+              </button>
+              <div class="swiper testimonialSlider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user1.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user2.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user3.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user4.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user5.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide team-card">
+                    <div class="team-member-img">
+                      <img src="./images/user1.jpg" alt="" />
+                      <ul class="social-handle">
+                        <li>
+                          <a href="#" title="Facebook Profile">
+                            <img
+                              src="./images/facebook-white.svg"
+                              alt="facebook"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Twitter Profile">
+                            <img
+                              src="./images/twitter-white.svg"
+                              alt="twitter"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="LinkedIn Profile">
+                            <img
+                              src="./images/linkedIn-white.svg"
+                              alt="linkedIn"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="team-member-details">
+                      <h6 class="team-member-name">Alina Doe</h6>
+                      <span class="team-member-designation">CEO, Company</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-icon dual-icon swiper-next"
+                title="Next"
+              >
+                <i class="icon-wrapper">
+                  <img
+                    class="default"
+                    src="./images/arrow-right-grey.svg"
+                    alt="Previous"
+                  />
+                  <img
+                    class="active"
+                    src="./images/arrow-right-primary.svg"
+                    alt="Previous"
+                  />
+                </i>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- Testimonial Section End -->
+      </main>
+      <!-- End Main Content -->
+    </div>
+
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="primary-footer container-xl">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="pe-lg-3 ps-1 pb-lg-0 pb-3">
+              <a class="footer-brand" href="#">
+                <img src="./images/white-logo.svg" alt="Company" />
+              </a>
+              <p class="description-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="row">
+              <div class="col-md col-6">
+                <div class="footer-links-wrapper">
+                  <b>Quick Links</b>
+                  <ul>
+                    <li>
+                      <a class="footer-link" href="#" title="Home">Home</a>
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Service"
+                        >Service</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Gallery"
+                        >Gallery</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Blog">Blog</a>
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="About Us"
+                        >About Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md col-6">
+                <div class="footer-links-wrapper">
+                  <b>Explore</b>
+                  <ul>
+                    <li>
+                      <a class="footer-link" href="#" title="Resources"
+                        >Resources</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Careers"
+                        >Careers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Community"
+                        >Community</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Help">Help</a>
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Chat with us"
+                        >Chat with us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md col-6">
+                <div class="footer-links-wrapper">
+                  <b>More</b>
+                  <ul>
+                    <li>
+                      <a
+                        class="footer-link"
+                        href="#"
+                        title="Terms &amp; Condition"
+                        >Terms &amp; Condition</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Privacy Policy"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="FAQ">FAQ</a>
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Sitemap"
+                        >Sitemap</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link" href="#" title="Help">Help</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="row">
+              <div class="col-xl-12 col-sm d-sm-none d-block">
+                <div class="footer-links-wrapper">
+                  <b class="ps-0">Let’s Connect</b>
+                  <ul>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="Facebook">
+                        <img src="./images/facebook.svg" alt="Facebook" />
+                      </a>
+                    </li>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="Twitter">
+                        <img src="./images/twitter.svg" alt="Twitter" />
+                      </a>
+                    </li>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="LinkedIn">
+                        <img src="./images/linkedIn.svg" alt="LinkedIn" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-12 col-sm">
+                <div class="footer-links-wrapper">
+                  <b class="ps-0">Signup to Our Newsletter</b>
+                  <div class="separated-input-group">
+                    <input type="text" />
+                    <span class="px-sm-1 mb-sm-0 mb-1"></span>
+                    <button
+                      type="button"
+                      title="Subscribe"
+                      class="btn btn-primary d-sm-inline-block d-none"
+                    >
+                      Subscribe
+                    </button>
+                    <button
+                      type="button"
+                      title="Subscribe"
+                      class="btn btn-primary btn-icon d-sm-none d-inline-block"
+                    >
+                      <img
+                        src="./images/arrow-right-white.svg"
+                        alt="Subscribe"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12 col-sm d-sm-block d-none">
+                <div class="footer-links-wrapper mt-2">
+                  <b class="ps-0">Let’s Connect</b>
+                  <ul>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="Facebook">
+                        <img src="./images/facebook.svg" alt="Facebook" />
+                      </a>
+                    </li>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="Twitter">
+                        <img src="./images/twitter.svg" alt="Twitter" />
+                      </a>
+                    </li>
+                    <li class="d-inline-block">
+                      <a class="social-link" href="#" title="LinkedIn">
+                        <img src="./images/linkedIn.svg" alt="LinkedIn" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="secondary-footer">
+        Copyright &copy; 2022 Company All Rights Reserved
+      </p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start OverLayer -->
+    <a href="#javascript:void(0)" class="overlayer"></a>
+    <!-- End OverLayer -->
+
+    <!-- JavaScripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
